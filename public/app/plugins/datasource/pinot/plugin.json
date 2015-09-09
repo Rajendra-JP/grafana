@@ -1,0 +1,16 @@
+{
+  "pluginType": "datasource",
+  "name": "Pinot 0.0.16",
+
+  "type": "pinot",
+  "serviceName": "PinotDatasource",
+
+  "module": "plugins/datasource/pinot/datasource",
+
+  "partials": {
+    "config": "app/plugins/datasource/pinot/partials/config.html"
+  },
+
+  "metrics": false,
+  "annotations": false
+}

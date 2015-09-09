@@ -1,0 +1,16 @@
+{
+  "pluginType": "datasource",
+  "name": "Druid",
+
+  "type": "druid",
+  "serviceName": "DruidDatasource",
+
+  "module": "plugins/datasource/druid/datasource",
+
+  "partials": {
+    "config": "app/plugins/datasource/druid/partials/config.html"
+  },
+
+  "metrics": false,
+  "annotations": false
+}
